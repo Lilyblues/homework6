@@ -59,19 +59,25 @@ body{
 		*{margin:0;padding:0}
 	}
 	
-	.nav ul a li{
-		float:left;
-		list-style:none;
-		width:100px;
-		height:60px;
-		line-height:60px;
-		text-align:center;
-		color:#ffffff;
-		font-family:'微软雅黑';
-		}
-		.nav ul{
-			margin:0 0 0 200px;
-			}
+	.nav ul li{
+	text-align: center;
+	list-style: none;
+	float: left;
+	width: 100px;
+	height:60px;
+	line-height: 60px;
+}
+.nav ul a li{
+	display: block;
+	width: 100px;
+	height:60px;
+	color:white;
+	text-decoration: none;
+}
+.nav ul{
+	width: 800px;
+	margin: 0 auto;
+}
 			.nav ul a li:hover{
 					background:#06F;
 					transition:1s;
